@@ -1,0 +1,142 @@
+/*Definicion de tipografia*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;600;800&display=swap');
+
+/*Definicion de variables colores*/
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+    --black: #1111;
+    --amarillo: #ceff1e;
+  }
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+/*Reglas titulo cabecera*/
+.titulo-arriba{
+    text-align: center;
+    background-color: var(--blue);
+    color: var(--white);
+    height: 5rem;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: -1rem;
+    padding-top: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+h3{
+    margin-top: 0;
+}
+
+.cont-titulo{
+    margin: 0;
+}
+
+/*Reglas seccion explicacion*/
+.explicacion {
+    background-color: var(--blue);
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    height: 7rem;
+}
+
+#cont-explicacion{
+    margin-left: -0.5rem;
+    margin-right: 1rem;
+}
+
+li {
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+    padding-left: 0.2rem;
+    padding-bottom: 0.5rem;
+}
+
+/*Reglas seccion ingreso numeros*/
+
+.numeros {
+    background-color: var(--amarillo);
+    color: royalblue;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: -0.5rem;
+    height: 13rem;
+}
+
+.datos-izquierda{
+    padding: 1rem;
+    text-align: center;
+    margin-left: 1rem;
+    width: 50%;
+}
+
+.x-derecha{
+    padding-top: 3rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 0rem;
+    width: 50%;
+}
+
+#txt1 {
+    height: 7rem;
+    width: 7rem;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.numero{
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+/*Reglas botónera y boton*/
+
+.ingreso-numeros-boton{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.contenedor-boton{
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    margin-top: -1rem;
+    margin-right: 2rem;
+}
+
+.boton-suma{
+    color: white;
+    background-color: rgb(218, 100, 22);
+    padding: 1rem;
+    font-weight: 800;
+    font-size: 2rem;
+    border: none;
+}
+
+.boton-suma:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(0.3rem);
+}
+
+
+
+
+

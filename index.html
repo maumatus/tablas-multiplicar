@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href="assets/css/styles.css" />
+    <title>Tititablas</title>
+</head>
+
+
+<body>
+    
+    <section class = "titulo-arriba">
+        <div id="cont-titulo">
+            <h1>Tabla de multiplicar</h1>
+        </div>
+    </div>
+
+    <section class = "explicacion">
+
+        <ol id="cont-explicacion">
+            <li>En la casilla puedes escribir o seleccionar un numero entre 1 y 20,
+                con click en boton "X" te dira las tablas desde el 1 hasta el numero que escribiste.
+            </li>
+                
+            <li>Tienes que prender la consola web del navegador para ver los resultados!!!!</li>   
+        </ol>
+    </div>
+    
+    <section class = "ingreso-numeros-boton">
+        
+        <div class="numeros">
+        
+        <!--Ingreso de numeros de usuario-->
+            <div class="datos-izquierda">
+                <h3>Número: </h3>
+                <input type="number" class = "numero" id="txt1" name="text1" value="1" min ="1" max ="20">
+            </div>
+
+            <div class="x-derecha">
+                 <!--Boton Multiplicar-->
+                <div class="contenedor-boton">
+                    <button class= "boton-suma" onclick="funcionMult();">X</button>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!--Codigo JS-->
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>
